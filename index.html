@@ -57,6 +57,26 @@
             background-color: #c99c3b !important;
         }
 
+        @media (min-width: 1000px) {
+            .download-br {
+                display: block;
+            }
+            .app-store {
+                margin-top: 10px;
+                width:176px;
+            }
+            .microsoft-store {
+                margin-top: 10px;
+            }
+            .uk-margin-small-left {
+                margin-left: 0 !important;
+            }
+            .google-play {
+                width:195px;
+            }
+
+        }
+
         @media (max-width: 959px) {
             .thing-btn-prev {
                 width: 246px;
@@ -80,6 +100,9 @@
             .google-play {
                 margin-top: 10px;
                 margin-bottom: 10px;
+            }
+            .download-br {
+                display: none;
             }
         }
 
@@ -556,11 +579,12 @@
                         <i class="fab fa-google-play fa-2x"></i>
                         <span class="wrapper">Download from<span>Google Play</span></span>
                     </a>
+                    <br class="download-br" />
                     <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=OBFXGlobalTech-Real" download=">App Store" class="app-store uk-button uk-button-secondary uk-border-rounded in-button-app uk-margin-small-left in-margin-remove-left@s">
                         <i class="fab fa-apple fa-2x"></i>
                         <span class="wrapper">Download from<span>App Store</span></span>
                     </a>
-                    <a href="https://download.mql5.com/cdn/web/obfx.global.technology/mt5/obfxglobaltech5setup.exe" download='Microsoft Store' class="uk-button uk-button-secondary uk-border-rounded uk-visible@m in-button-app uk-margin-small-left">
+                    <a href="https://download.mql5.com/cdn/web/obfx.global.technology/mt5/obfxglobaltech5setup.exe" download='Microsoft Store' class="microsoft-store uk-button uk-button-secondary uk-border-rounded uk-visible@m in-button-app uk-margin-small-left">
                         <i class="fab fa-windows fa-2x"></i>
                         <span class="wrapper">Download from<span>Microsoft Store</span></span>
                     </a>
